@@ -29,7 +29,7 @@ public class Spawner : MonoBehaviour
 
             float posX = Random.Range(-radius, radius);
             float posZ = Random.Range(-radius, radius);
-            float posY = Random.Range(0, height);
+            float posY = Random.Range(1, height);
 
             spawnPos = new Vector3(posX, posY, posZ);
             
